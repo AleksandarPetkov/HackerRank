@@ -46,12 +46,12 @@ public class CountingValleys {
                 --seaLevel;
             }
 
-            // For my logic sea level need to be less than 0. And here I save level
+            // For my logic sea level need to be less than 0. And here I save the level
             if (seaLevel < 0){
                 belowSeaLevel = true;
             }
 
-            //If previous level is less than 0 and current level is 0, I have Valley
+            //If previous level is less than 0 and current level is 0, I have a Valley
             if (belowSeaLevel == true && seaLevel >= 0){
                 countValley++;
                 belowSeaLevel = false;

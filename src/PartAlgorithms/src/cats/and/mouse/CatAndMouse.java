@@ -13,7 +13,6 @@ public class CatAndMouse {
         if (firstCatSteps == secondCatSteps){
             return MOUSE;
         }
-
         return firstCatSteps < secondCatSteps ? FIRST_CAT : SECOND_CAT;
     }
 

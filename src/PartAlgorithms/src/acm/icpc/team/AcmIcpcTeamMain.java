@@ -27,7 +27,6 @@ public class AcmIcpcTeamMain {
         }).collect(toList());
 
         AcmIcpcTeam.acmTeam(topic).forEach(System.out::println);
-
         bufferedReader.close();
     }
 }
